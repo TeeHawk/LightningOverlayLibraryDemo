@@ -1,0 +1,20 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <lightning:overlayLibrary aura:id="overlayLib"/>
+
+    <lightning:card>
+        <lightning:layout >
+            <lightning:layoutItem padding="around-small">
+                <lightning:button label="Open Modal" onclick="{!c.openModal}"/>
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <lightning:button label="Open Modal w/ Footer" onclick="{!c.openModalWithFooter}"/>
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <lightning:button label="Open Timed Modal" onclick="{!c.openTimedModal}"/>
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <lightning:button label="Open Popover" onclick="{!c.openPopover}" class="popover1"/>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </lightning:card>
+</aura:component>	

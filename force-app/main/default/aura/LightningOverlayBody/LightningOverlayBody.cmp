@@ -1,0 +1,4 @@
+<aura:component>
+    <aura:attribute name="modalName" type="String" default="undefined"/>
+    <p>Hello, my name is {!v.modalName}.</p>
+</aura:component>	

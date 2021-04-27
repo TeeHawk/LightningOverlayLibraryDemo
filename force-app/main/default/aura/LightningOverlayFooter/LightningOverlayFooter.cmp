@@ -1,0 +1,5 @@
+<aura:component>
+    <lightning:overlayLibrary aura:id="overlayLib"/>
+
+    <lightning:button label="Cancel" onclick="{!c.closeModal}"/>
+</aura:component>	
